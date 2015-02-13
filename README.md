@@ -1,6 +1,6 @@
 # Mina::Git::Revision
 
-TODO: Write a gem description
+This is the standard git module that comes with mina except it writes out a file called REVISION so we can match up which version is running in production.
 
 ## Installation
 
@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Standard usage with the built-in module. Just include this at the top of your deploy.rb
+
+```
+require 'mina/git/revision'
+```
 
 ## Contributing
 
